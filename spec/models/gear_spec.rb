@@ -10,7 +10,7 @@ describe Gear do
   end
 
   it "calculates ratio" do
-    gear.ratio.should be_close(4.73, 0.1)
+    gear.ratio.should be_within(0.1).of(4.73)
   end
 
 end
