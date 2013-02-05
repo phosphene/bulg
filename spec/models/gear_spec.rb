@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe Gear do
 
-  subject(:gear) do  
+  subject(:gear) do 
+ 
     Gear.new(
              chainring: 52,
              cog: 11,
@@ -10,7 +11,14 @@ describe Gear do
   end
 
   it "calculates ratio" do
-    gear.ratio.should be_within(0.1).of(4.73)
+    gear.ratio.should be_within(0.01).of(4.73)
   end
+
+  it "calculates gear_inches" do
+    gear.gear_inches.should be_within(0.01).of(137.1)
+  end
+
+
+
 
 end

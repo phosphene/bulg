@@ -12,7 +12,7 @@ class Gear
   end
 
   def gear_inches
-
+  ratio * wheel.diameter
   end
 end
   
