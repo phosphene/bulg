@@ -21,7 +21,7 @@ tmp/**/*
 *.rbc
 *~
 *#*
-db/
+db/*
 public/uploads
 .DS_Store
 public/stylesheets/*.css

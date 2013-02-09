@@ -3,8 +3,7 @@ require 'spec_helper'
 describe Gear do
 
   subject(:gear) do 
- 
-    Gear.new(
+     Gear.new(
              chainring: 52,
              cog: 11,
              wheel: Wheel.new(26, 1.5) )
