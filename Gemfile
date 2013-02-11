@@ -19,7 +19,7 @@ group :test do
   gem 'activerecord-nulldb-adapter'
   gem 'database_cleaner'
   gem 'faker'
-  gem 'factory_girl_rails', '~> 2.0'
+  gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'pry'

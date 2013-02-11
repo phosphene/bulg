@@ -173,7 +173,7 @@ DEPENDENCIES
   capybara-screenshot
   coffee-rails (~> 3.2.1)
   database_cleaner
-  factory_girl_rails (~> 2.0)
+  factory_girl_rails
   faker
   jquery-rails
   launchy
