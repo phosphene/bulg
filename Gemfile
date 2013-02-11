@@ -26,6 +26,7 @@ group :test do
   gem 'rspec-rails'
   gem 'awesome_print'
   gem 'capybara-screenshot'
+  gem 'poltergeist'
 end
 
 # Gems used only for assets and not required
